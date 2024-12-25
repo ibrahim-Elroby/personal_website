@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abo khalil portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__loop" loop autoplay muted>
+        <source src="images/video-loop.ogg" />
+        <source src="images/video-loop.mp4" />
+        your video doesn't support
+      </video>
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__links navigation__bio">bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__links navigation__skills"
+                >skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__links navigation__media"
+                >media</a
+              >
+            </li>
+            <li>
+              <a href="#project" class="navigation__links navigation__projects"
+                >projects</a
+              >
+            </li>
+            <li>
+              <a href="#client" class="navigation__links navigation__myclient"
+                >my client</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__links navigation__contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__text">switch theme</h3>
+          <input type="checkbox" class="toggle__checkbox" id="toggle" />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <section class="bio section" id="bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate front-end developer
+          </h1>
+          <p class="bio__oblective">
+            My name is <span class="bio__name">ibrahim Elroby</span>, a
+            front-end developer. study in
+            <a href="almdrasa.com" class="almdrasa">almdrasa</a>, front-end
+            fundamentals <br />
+            and hope to be programming content creator
+            <a
+              href="https://www.facebook.com/profile.php?id=61565554716823"
+              class="facebook"
+              >facebook</a
+            >
+            ,<a href="https://www.tiktok.com/@ibrahim_elroby" class="twitter"
+              >tik-tok</a
+            >,<br />
+            <a
+              href="https://www.linkedin.com/in/ibrahim-elroby-254ba42b6/"
+              class="linkedIn"
+              >linkedIn</a
+            >
+            and
+            <a href="https://www.youtube.com/@Abuokhalil" class="youtube"
+              >youtube</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi">Say Hi</a>
+          <a href="ibrahim cv.pdf" class="bio__links find-out">
+            Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic">
+          <img src="images/ibrahim.jpg" alt="personal-pic" class="bio__photo" />
+        </div>
+      </section>
+      <section id="skills" class="skills section section-bg">
+        <h3 class="skills__heading">Skills</h3>
+        <ul class="skills__list">
+          <li>
+            <h3 class="skills__items">HTML</h3>
+            <span class="skills__years"> one year</span>
+          </li>
+          <li>
+            <h3 class="skills__items">CSS</h3>
+            <span class="skills__years">one year</span>
+          </li>
+          <li>
+            <h3 class="skills__items">Javascript</h3>
+            <span class="skills__years">fresh learner</span>
+          </li>
+          <li>
+            <h3 class="skills__items">React</h3>
+            <span class="skills__years">in prograss</span>
+          </li>
+          <li>
+            <h3 class="skills__items">python</h3>
+            <span class="skills__years">fresh learner</span>
+          </li>
+        </ul>
+      </section>
+      <section class="media" id="media">
+        <video class="media__video" controls poster="images/thumbnail.jpg">
+          <source src="images/video.mp4" />
+        </video>
+      </section>
+      <section class="project" id="project">
+        <h3 class="project__heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h3>
+        <img class="project__img1" src="images/project-1.jpg" alt="" />
+        <div class="project__item">
+          <h4 class="project__item__heading">
+            Quran Tab <br />
+            Extension
+          </h4>
+          <p class="project__text">
+            I learn with ENG. Mohamed Abusrea in HTML&CSS Fundmantels how to
+            make a Quran Tab extension, it was a responsive design project
+            ,Quran Tab is an Islamic new tab page that will keep you inspired by
+            a verse from the Quran every time you open a new tab
+          </p>
+          <a
+            href="../03- quran tab landing page/index.html"
+            class="project__item__links"
+            >Chrome link</a
+          ><span> - </span
+          ><a
+            href="../03- quran tab landing page/index.html"
+            class="project__item__links"
+            >Edge link</a
+          >
+        </div>
+
+        <div class="project__item">
+          <h4 class="project__item__heading">
+            shcolar <br />
+            web education
+          </h4>
+          <p class="project__text">
+            Scholar is free CSS template designed by TemplateMo for online
+            educational related websites. This layout is based on the famous CSS
+            & HTML layouts.
+          </p>
+          <a href="../scholar/index.html" class="project__item__links"
+            >chrome link</a
+          >
+        </div>
+        <img
+          class="project__img1"
+          src="images/Screenshot 2024-12-24 113711.png"
+          alt=""
+        />
+      </section>
+      <section class="client section section-bg" id="client">
+        <h3 class="client__heading">
+          WHAT MY <br />
+          CLIENTS SAYS.
+        </h3>
+        <div class="client__opinion">
+          <div class="cient__wraper">
+            <p class="opinion">
+              Abusrea has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Abusrea
+              to own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="opinion">
+              Mohamed will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+            <p class="opinion">
+              Abusrea has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Abusrea
+              to own his tasks and complete what is needed when asked of him.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact__description">
+          <p>
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:example@gmail.com" class="contact__email"
+            >example@gmail.com</a
+          >
+          <div class="contact__icons">
+            <a href="" class="soical__icons"
+              ><img src="images/brand/facebook.svg" alt="" /></a
+            ><a href="" class="soical__icons"
+              ><img src="images/brand/twitter.svg" alt="" /></a
+            ><a href="" class="soical__icons"
+              ><img src="images/brand/youtube.svg" alt="" /></a
+            ><a href="" class="soical__icons"
+              ><img src="images/brand/github.svg" alt="" /></a
+            ><a href="" class="soical__icons"
+              ><img src="images/brand/instagram.svg" alt="" /></a
+            ><a href="" class="soical__icons"
+              ><img src="images/brand/LinkedIn.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="contact__form" id="contact">
+          <h3 class="client__heading contact_h3">
+            LET’S WORK <br />
+            TOGETHER!
+          </h3>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="full Name"
+                required
+                name="full-name"
+              />
+              <input
+                type="tel"
+                name="phone"
+                class="contact__input"
+                required
+                placeholder="Phone NO."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              rows="1"
+              placeholder="Your Message"
+              class="contact__input area__input"
+            ></textarea>
+            <input class="contact__buttom" type="submit" value="send message" />
+          </form>
+        </div>
+      </section>
+      <i class="fa-brands fa-youtube" style="color: #e20808"></i>
+      <footer>© 2024 by Ibrahim elroby</footer>
+    </div>
+  </body>
+</html>
